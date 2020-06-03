@@ -19,3 +19,13 @@ class MegamanSpritesFactory(AbstractFactory):
     def moveRight(self):
         right = rightMegaman()
         return right.get_sprites
+    def moveup(self):
+        up = upMegaman()
+        return up.get_sprites
+    def movedown(self):
+        down=downMegaman()
+        return down.get_sprites
+    def space(self):
+        space=spaceMegaman()
+        return space.get_sprites()
+

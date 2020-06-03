@@ -34,3 +34,28 @@ class rightMegaman(right):
                 loadImages.load("megSprites/MD5.png"),
                 loadImages.load("megSprites/MD6.png"),
                 loadImages.load("megSprites/MD7.png")]
+
+class up():
+    def get_sprites(self): pass
+
+
+class upMegaman(up):
+    def get_sprites(self):
+        return[loadImages.load("megSprites/MD1.png"),
+               loadImages.load("megSprites/SD1.png"),
+               loadImages.load("megSprites/SD2.png")]
+class down():
+    def get_sprites(self):pass
+class downMegaman():
+    def get_sprites(self):
+        return[loadImages.load("megSprites/D1.png"),
+               loadImages.load("megsprites/MD1.png")]
+class space():
+    def get_sprites(self):pass
+class spaceMegaman():
+    def get_sprites(self):
+        return[loadImages.load("megSprites/P1.png"),
+               loadImages.load("megsprites/P2.png"),
+               loadImages.load("megsprites/P3.png")]
+
+

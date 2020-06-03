@@ -8,7 +8,7 @@ class Character(Sprite):
         Sprite.__init__(self)
         self.direction = 0
         self.cont = 0
-        self.speed = 20
+        self.speed = 10
 
     def set_sprites(self, images):
         self.graphics = images
